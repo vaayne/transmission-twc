@@ -11,6 +11,10 @@ docker image of [transmission](https://github.com/transmission/transmission) wit
 
 # Usage
 
+```
+docker pull vaayne/transmission-twc
+```
+
 Usage for the UI please see https://github.com/ronggang/transmission-web-control/wiki
 
 Usage for the image please see https://github.com/linuxserver/docker-transmission

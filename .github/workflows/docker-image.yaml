@@ -5,6 +5,9 @@ on:
     branches: [ master ]
   pull_request:
     branches: [ master ]
+  schedule:
+    # schedule run to get update, at 00:01 every Monday
+    - cron:  '1 0 * * 1'
 
 jobs:
   build:

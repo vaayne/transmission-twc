@@ -23,6 +23,7 @@ jobs:
         with:
           images: vaayne/transmission-twc
           tags: |
+            type=sha
             type=schedule,pattern={{date 'YYYYMMDD'}}
           flavor: |
             latest=true

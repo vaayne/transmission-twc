@@ -17,7 +17,7 @@ env:
 
 jobs:
   docker:
-    uses: Vaayne/github-workflows/.github/workflows/docker.yml@v0.1
+    uses: Vaayne/github-workflows/.github/workflows/docker.yml@v0.1.1
     secrets:
       DOCKERHUB_USERNAME: ${{ secrets.DOCKER_USERNAME }}
       DOCKERHUB_TOKEN: ${{ secrets.DOCKER_PASSWORD }}

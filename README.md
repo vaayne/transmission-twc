@@ -1,3 +1,7 @@
+# **[deprecated]**
+
+[linuxserver/docker-transmission](https://github.com/linuxserver/docker-transmission#parameters) has supportd multiple UIs, no need for this anymore.
+
 # transmission-twc
 
 docker image of [transmission](https://github.com/transmission/transmission) with [transmission-web-control](https://github.com/ronggang/transmission-web-control)
